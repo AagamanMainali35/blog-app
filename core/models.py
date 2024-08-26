@@ -6,6 +6,7 @@ class tags(models.Model):
         return(self.Tagname)
 
 
+
 class blog(models.Model):
     Username=models.CharField(verbose_name='username',max_length=50,blank=False,null=True)
     BlogTitle=models.CharField(verbose_name='Blogtitle',max_length=50,blank=False,null=True)
