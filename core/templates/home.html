@@ -77,7 +77,7 @@
             {% for data in data %}
             <div class="card_container">
                 <a href="#" class="card_image_container">
-                    <img src="{{data.image.ur;}}" alt="card 1 image" class="card_image" loading="lazy"/>
+                    <img src="{{data.image.url}}" alt="card 1 image" class="card_image" loading="lazy"/>
                 </a>
                 <div class="card_title_container">
                     <a href="#" class="card_title_anchor">
@@ -111,7 +111,8 @@
         <a href="#home" class="btn btn-dark" style="margin-right: 10px;">HomePage</a>
     </div>
     <div id="conatctus">
-        <form action="#" method="post">
+        <form  method="post">
+            {% csrf_token %}
             <h1>Contact Us</h1>
             <p>Please take a moment to get in touch, we will get back to you shortly.</p>
             <div class="column">
