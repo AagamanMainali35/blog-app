@@ -7,7 +7,7 @@ from datetime import datetime, timedelta
 REPO_PATH = r'C:\DjnagoProjects\Projects\blog'
 FILE_NAME = 'README.md'
 DAYS = 5
-MAX_COMMITS_PER_DAY = 17
+MAX_COMMITS_PER_DAY = 12
 
 def run_command(command):
     result = subprocess.run(command, shell=True, text=True, capture_output=True)
