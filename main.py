@@ -4,10 +4,10 @@ import random
 from datetime import datetime, timedelta
 
 # Configuration
-REPO_PATH = r'C:\DjnagoProjects\Projects'
+REPO_PATH = r'C:\DjnagoProjects\Projects\blog'
 FILE_NAME = 'README.md'
 DAYS = 20
-MAX_COMMITS_PER_DAY = 30
+MAX_COMMITS_PER_DAY = 17
 
 def run_command(command):
     result = subprocess.run(command, shell=True, text=True, capture_output=True)
