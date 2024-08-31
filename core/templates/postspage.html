@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            position: relative;
+            margin-top: 20px;
+            margin-bottom:50px;
+        }
+        .card {
+            position: relative; 
+            display: flex;
+            align-items: center;
+            width: 70rem;
+            height: 18rem;
+            background-color: rgb(254, 249, 195);
+            border-radius: 50px;
+            padding-left: 10px;
+            box-sizing: border-box; 
+            margin-left: 20px;
+        }
+        .contain2 {
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center; /* Center the image within the div */
+            width: 20rem;
+            height: 17rem;
+            background-color: rgb(255, 255, 255);
+            border: 1px solid black;
+            border-radius: 15px;
+            box-sizing: border-box;
+            z-index: 2;
+            top: 11px;
+            right: 20px;
+            overflow: hidden; 
+        }
+        .contain2 img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Source+Sans+Pro:wght@400&display=swap');
+        h1{
+            font-family: 'Playfair Display', 'Segoe UI', 'Helvetica Neue', 'Arial', sans-serif;
+            font: 400;
+            color: rgb(49 46 129) ;  
+            margin-left: 35rem; 
+            top: 0;  
+            font-size: 50px;
+          }
+          @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+        
+        p{
+            font-family: 'Montserrat', sans-serif; 
+            font-size: 24px; 
+            color: #003366; 
+            text-align: center;
+            margin:0px 0px 30px -90px;
+           }   
+    </style>
+</head>
+<body>
+    <h1>Blog Details</h1>
+    <p>Where the passion meets the innovation. </p>
+    <div class="container">
+        <div class="card">
+            <h4>Creating the future</h4>
+            <p>Where the passion meets the innovation. </p>
+        </div>
+        <div class="contain2">
+            <img src="../static/images/home.jpg" alt="Description of image">
+        </div>
+    </div> 
+
+</body>
+
+
+
+</html>
