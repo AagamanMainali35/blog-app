@@ -4,7 +4,7 @@ import random
 from datetime import datetime, timedelta
 
 # Configuration
-REPO_PATH = r'C:\Users\aagam\Desktop\FYP materials'
+REPO_PATH = r'C:\DjnagoProjects\Projects'
 FILE_NAME = 'README.md'
 DAYS = 20
 MAX_COMMITS_PER_DAY = 30
@@ -41,12 +41,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
-    
-# C:\Users\aagam\Desktop\FYP materials>C:/Users/aagam/AppData/Local/Programs/Python/Python312/python.exe "c:/Users/aagam/Desktop/FYP materials/main.py"
-# Traceback (most recent call last):
-#   File "c:\Users\aagam\Desktop\FYP materials\main.py", line 43, in <module>
-#     main()
-#   File "c:\Users\aagam\Desktop\FYP materials\main.py", line 27, in main
-#     os.chdir(REPO_PATH)
-# NotADirectoryError: [WinError 267] The directory name is invalid: 'C:\\Users\\aagam\\Desktop\\FYP materials\\main.py'
